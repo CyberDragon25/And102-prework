@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace 'edu.iastate.shubham8.and102_prework'
-    compileSdk 32
+    compileSdk 34
 
     defaultConfig {
         applicationId "edu.iastate.shubham8.and102_prework"
         minSdk 27
-        targetSdk 32
+        targetSdk 34
         versionCode 1
         versionName "1.0"
 
@@ -41,4 +41,6 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+//    for toast
+    implementation 'io.github.shashank02051997:FancyToast:2.0.2'
 }
